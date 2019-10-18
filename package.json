@@ -1,0 +1,34 @@
+{
+  "name": "@lz-ui/cdn-plugin",
+  "version": "0.1.0",
+  "description": "@lz-ui/cdn-plugin 基于webpack build完成后钩子函数出发cdn上传文件，傻瓜式部署",
+  "author": "lz-ui@jczxw.cn",
+  "license": "MIT",
+  "private": false,
+  "main": "src/index.js",
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lz-ui/cdn-plugin.git"
+  },
+  "keywords": [
+    "cos",
+    "cdn"
+  ],
+ 
+  "bugs": {
+    "url": "https://github.com/lz-ui/cdn-plugin/issues"
+  },
+  "homepage": "https://github.com/lz-ui/cdn-plugin#readme",
+  "dependencies": {
+    "upyun": "^3.3.11"
+  },
+  "devDependencies": {
+
+  }
+}
